@@ -55,7 +55,7 @@ def rank_fitness(values):
         rank_fitness.append( (2-sp) + 2 * (sp - 1) * (rank[j]-1)/(len(fitness)-1) )
     return fitness,rank,rank_fitness
     
-
+# rank_fitness for constrian x1 +x2 =1 
 def rank_fitness_part_2(values):
     fitness=[]
     for i in range(len(values)):
